@@ -22,3 +22,4 @@ jobs:
         run: |
           postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
           postman collection run 49884421-793d2785-e4f6-4a62-9199-15762ac69dea -e 49884421-15d99e62-a819-4ed5-9110-8fffa3547e7b -i 49884421-baef2276-4c02-4a4d-ad42-10bebf8a387f -i 49884421-f9a95dff-aec4-4813-92bd-e71814ca8b20 -i 49884421-0bcf9d5a-5933-49ee-94e8-66ff34e9b7b8
+
